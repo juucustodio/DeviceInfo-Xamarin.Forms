@@ -3,9 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemoDeviceInfo"
              x:Class="DemoDeviceInfo.MainPage">
-
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label x:Name="DeviceName" />
+        <Label x:Name="Id" />
+        <Label x:Name="Manufacturer" />
+        <Label x:Name="Model" />
+        <Label x:Name="Platform" />
+        <Label x:Name="Version" />
+    </StackLayout>
 </ContentPage>
